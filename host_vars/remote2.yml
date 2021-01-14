@@ -1,0 +1,6 @@
+---
+namedvars:
+  - fn_p2: remote2
+    fn_p3: push2
+    specfic_name: remote 2 overrides
+    type: int

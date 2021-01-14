@@ -1,0 +1,8 @@
+---
+- hosts: local
+  tasks:
+    - name: Running backup tasks
+      include_role: 
+        name: common
+        tasks_from: update-config.yml
+      loop: "{{ namedvars }}"

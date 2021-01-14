@@ -1,0 +1,14 @@
+---
+namedvars:
+  - fn_p2: remote1
+    fn_p3: push
+    specfic_name: remote 1 overrides
+    type: int
+  - fn_p2: remotejk1
+    fn_p3: pushJK1
+    specfic_name: remote jk1 overrides
+    type: ext
+  - fn_p2: remotejk2
+    fn_p3: pushJK2
+    specfic_name: remote jk2 overrides
+    type: ext

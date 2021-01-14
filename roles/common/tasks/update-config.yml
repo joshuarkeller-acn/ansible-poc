@@ -1,0 +1,12 @@
+---
+- name: Copy static file /home/josh/{{ item.fn_p3 }}/static.txt
+  copy:
+    src: static.txt
+    dest: /home/josh/{{ item.fn_p3 }}/static.txt
+    backup: yes
+
+- name: Copy template file /home/josh/{{ item.fn_p3 }}/profile_{{ item.fn_p2 }}.txt
+  template:
+    src: "{{ item.type }}_profile.j2"
+    dest: /home/josh/{{ item.fn_p3 }}/profile_{{ item.fn_p2 }}.txt
+    backup: yes
